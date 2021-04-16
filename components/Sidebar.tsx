@@ -4,7 +4,7 @@ interface Props {}
 
 function Sidebar({}: Props): ReactElement {
   return (
-    <div>
+    <div className="sidebar-container">
       <Link href="/components/button">Button</Link>
     </div>
   );
