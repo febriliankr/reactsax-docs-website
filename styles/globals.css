@@ -1,3 +1,7 @@
+:root {
+  --colorShadeA: rgb(29, 110, 230);
+}
+
 html,
 body {
   padding: 0;
@@ -13,4 +17,25 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.rs-button {
+  padding: 1em 2em;
+  border-radius: 6px;
+  box-shadow: 0px 10px 20px rgba(29, 109, 230, 0.3);
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background-color: var(--colorShadeA);
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: inherit;
+}
+
+.rs-button:hover {
+  box-shadow: 0px 10px 20px rgba(29, 109, 230, 0.1);
 }
